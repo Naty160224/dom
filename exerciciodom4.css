@@ -1,0 +1,21 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeria img {
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
+.galeria img:hover {
+    border-color: #666;
+}
+#imagemDestaque {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+}
